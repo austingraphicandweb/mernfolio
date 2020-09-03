@@ -1,0 +1,13 @@
+ul {
+    border: 1px solid red;
+    list-style-type:none;
+    padding: 10px;
+}
+li {
+    border: 1px solid yellow;
+    display:inline;
+}
+a {
+    border: 1px solid blue;
+    max-width:13%;
+}
