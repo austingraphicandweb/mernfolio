@@ -5,21 +5,22 @@
     top: 0px;
     left:0px;
     position:fixed;
-    height:15%;
+    height:70px;
     overflow:auto;
 }
 
 ul {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     list-style-type:none;
     padding: 10px;
     position:fixed;
     left:0px;
     top:0px;
-    margin:0px auto;
+    margin:6px auto;
     width:100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:20px;
+    font-size:30px;
+    text-align:center;
 }
 li {
     /* border: 1px solid yellow; */
@@ -40,4 +41,6 @@ a:hover {
 
 .logo {
     font-weight:bold;
+    float:left;
+    border: 1px solid red;
 }
