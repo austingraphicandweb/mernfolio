@@ -43,4 +43,9 @@ a:hover {
     font-weight:bold;
     float:left;
     border: 1px solid red;
+    width: 700px;
+}
+span {
+    border: 1px solid purple;
+    width: 700px;
 }
