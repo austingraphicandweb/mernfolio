@@ -1,5 +1,5 @@
 .navigation {
-    background:#e9e1cc;
+    background-color:red;
     position: fixed;
     top: 0px;
     left:0px;
@@ -7,7 +7,6 @@
 }
 
 .logo {
-    color:#546ee5;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float:left;
     margin-left: 35px;
@@ -26,12 +25,11 @@ li {
 }
 a {
     text-decoration:none;
-    color:#546ee5;
-    border-right: 1px solid #546ee5;
+    border-right: 1px solid #000000;
     padding: 10px;
 }
 a:hover {
-    color:#f7d794;
+    color:#ffff00;
     transition:.5s;
 }
 
