@@ -1,12 +1,17 @@
 import React from 'react';
 import './navigation.css';
 import { Link } from 'react-router-dom';
+import logo from './logo.png';
 
 const navigation = () => {
 
     return (
         <div className="navigation">
-            <h1 className="logo">Austin Keener</h1>
+            <div className="branding">
+                <img src={logo} alt="Logo" width="30px" height="30px" className="logo" />
+                <h1 className="brand">Austin Keener</h1>
+            </div>
+
             <ul className="nav">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/portfolio'>Portfolio</Link></li>
