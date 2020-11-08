@@ -20,6 +20,8 @@
 .brand {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float:left;
+    color:white;
+    margin-left: 10px;
 }
 
 .nav {
@@ -35,10 +37,9 @@ li {
 }
 a {
     text-decoration:none;
-    border-right: 1px solid #000000;
     padding: 10px;
-    color: #000000;
-}
+    color: #ffffff;
+    }
 a:hover {
     color:#ffff00;
     transition:.5s;
