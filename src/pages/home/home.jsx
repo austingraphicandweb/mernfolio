@@ -3,10 +3,9 @@ import "../home/home.css";
 
 const home = () => {
   return (
+      //content div
     <main className="homeContainer">
-      <div>
-         Homepage placeholder 
-      </div>
+      <h1>Homepage placeholder</h1>
     </main>
   );
 };
